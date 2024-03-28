@@ -62,12 +62,9 @@ System is interrupted (warning):
             </tr>
  
             <tr>
-                <!--RC--><td><b>Planned updates or maintenance work</b><br> 
-				There will be IT maintenance work on <b>Tuesday, April 16th, between 11:30-13:30 CEST and on Tuesday, April 23rd, between 11:30-14:00 CEST. </b>
-As a consequence, the CTU Bern REDCap databases will not be available during these time periods. You will receive an email when the system is online again. We apologize for any inconvenience this may cause.
-
-				<br></td>
-				<!--sT--><td><b>Planned updates or maintenance work outside regular window</b><br>
+                <td><b>Planned updates or maintenance work</b><br> 
+				none<br></td>
+				<td><b>Planned updates or maintenance work outside regular window</b><br>
 				none<br></td>             
             </tr>
 			
