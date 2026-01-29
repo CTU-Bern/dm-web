@@ -1,28 +1,26 @@
-<!-- ZMSTable.standard_html -->
-
-<!--
-<div style="margin-top:0; margin-bottom:20px;">Please note that our Data Management team will be working with reduced availability during the holiday period from 23 December to 5 January.
-	System emergencies can be reported via datamanagement.dcr@unibe.ch (marked with high importance).</div>
--->
-
 <div class="table-responsive">
     <style>
          @media screen and (min-width:560px){
-            
-                table#e1443905 tr th:nth-child(1), table#e1443905 tr td:nth-child(1) { width:50% }
-                table#e1443905 tr th:nth-child(2), table#e1443905 tr td:nth-child(2) { width:50% }
+                table#e1443905 tr th,
+                table#e1443905 tr td {
+					width:25%;
+				}
         }
+		<style>
  
 	</style>
     <table id="e1443905" class="ZMSTable table bs-table">
 		<thead>
 			<tr>
-                <th><h4>REDCap</h4></th>
+                <th><h4>REDCap 1 <br><br>  https://redcap.ctu.unibe.ch/</h4></th>
+                <th><h4>REDCap 2 <br><br>  https://redcap2.ctu.unibe.ch/</h4></th>
+                <th><h4>REDCap UniBe <br><br>  https://redcap.unibe.ch/</h4></th>
                 <th><h4>secuTrial</h4></th>
             </tr>
         </thead>
  
-<!-- 
+<!--________________NOTES FOR CHANGING STATUS______________________________________________________
+		
 update below accordingly:
 SYSTEM IS RUNNING (green):
 				<div class="alert alert-success alert-box-error"  style="margin:2em 0;" role="alert">
@@ -37,18 +35,45 @@ System is DOWN (red alert):
 System is interrupted (warning):
 				<div class="alert alert-warning alert-box-error"  style="margin:2em 0;" role="alert">
 				<div class="icon-stop fas fa-warning warning-icon"></div>
-				<div class="alert-text-warning">INTERRUPTED</div>						
+				<div class="alert-text-warning">INTERRUPTED</div>	
+______________________________________________________________________________________________________
 -->
- 
+
         <tbody>
-            <tr>
+		
+  <!-- REDCap 1 -->
+			<tr>
                 <td>
 				<!-- alertbox.standard_html REDCap IS RUNNING-->
 				<div class="row skin-gutter-wide zmsrow-alertbox">		
 				<!--<div class="col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1">-->
-				<div class="alert alert-danger alert-box-error"  style="margin:2em 0;" role="alert">
-				<div class="icon-warning fas fa-warning alert-icon"></div>
-				<div class="alert-text-danger">OFFLINE</div>
+				<div class="alert alert-success alert-box-error"  style="margin:2em 0;" role="alert">
+				<div class="icon-success fas fa-success success-icon"></div>
+				<div class="alert-text-success">ONLINE</div>
+				</div>
+				</div><!-- END /alertbox.standard_html --><!--</div>-->
+				</td>
+
+   <!-- REDCap 2 -->
+               <td>
+				<!-- alertbox.standard_html REDCap IS RUNNING-->
+				<div class="row skin-gutter-wide zmsrow-alertbox">		
+				<!--<div class="col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1">-->
+				<div class="alert alert-success alert-box-error"  style="margin:2em 0;" role="alert">
+				<div class="icon-success fas fa-success success-icon"></div>
+				<div class="alert-text-success">ONLINE</div>
+				</div>
+				</div><!-- END /alertbox.standard_html --><!--</div>-->
+				</td>
+
+  <!-- REDCap UniBe -->
+                <td>
+				<!-- alertbox.standard_html REDCap IS RUNNING-->
+				<div class="row skin-gutter-wide zmsrow-alertbox">		
+				<!--<div class="col-lg-8 col-lg-offset-3 col-md-10 col-md-offset-1">-->
+				<div class="alert alert-success alert-box-error"  style="margin:2em 0;" role="alert">
+				<div class="icon-success fas fa-success success-icon"></div>
+				<div class="alert-text-success">ONLINE</div>
 				</div>
 				</div><!-- END /alertbox.standard_html --><!--</div>-->
 				</td>
@@ -64,6 +89,7 @@ System is interrupted (warning):
 				</div><!-- END /alertbox.standard_html --><!--</div>-->
 				</td>
              </tr>
+ 
 		
 <!--	<tr>
           	 <td><b>Planned updates or maintenance work</b><br>
@@ -73,92 +99,21 @@ System is interrupted (warning):
             </tr> -->
 			
             <tr>
-				<td> Please note that regular REDCap software updates will be performed on <b>Mondays from 11.30-14.00 CE(S)T</b>, there might be an interruption of the REDCap databases during that time frame. </br>
-				We advise you to plan your randomization outside of that window and apologize for any inconvenience this may cause. 
-As before, we will announce the software updates in advance by e-mail.
+				<td colspan="3">
+					Please note that regular REDCap software updates will be performed on
+					<b>Mondays from 11.30–14.00 CE(S)T</b>, there might be an interruption of the
+					REDCap databases during that time frame.
 				</td>
-                <td>
-				Please note that due to <b>regular maintenance windows</b> by ICT Inselspital Bern on <b>Wednesdays from 18.00-24.00 CE(S)T</b>,
-there might be an interruption of the secuTrial databases during that time frame. 
-</br> We advise you to plan your randomization outside of that window and apologize for any inconvenience this may cause. 
-				</td></tr>
+				<td>
+					Please note that due to <b>regular maintenance windows</b> by ICT Inselspital Bern on
+					<b>Wednesdays from 18.00–24.00 CE(S)T</b>, there might be an interruption of the
+					secuTrial databases during that time frame.
+				</td>
+			</tr>
  
             
             </tbody>
         
     </table>
-</div><!-- /ZMSTable.standard_html -->
-
-		
-
-
-<!-- ZMSTextarea.standard_html -->
-<!--<div id="e1443903"><h3>Please note:</h3>-->
-
-<!--<table align="left" border="0" cellpadding="8" cellspacing="1" style="width:100%">
-	<tbody>
-
-		<tr>
-			<td><em>03.12.2024 </em></td>
-			<td>We would like to inform you that the data management team will only offer limited support during the holidays (23.12.-03.01.). Happy Holidays!</td>
-		</tr>
-		
-		<tr>
-			<td><em>02.12.2024</em></td>
-			<td>REDCap: Successfully updated to version 14.5.25</td>
-		</tr>
-		<tr>
-			<td><em>18.11.2024</em></td>
-			<td>In collaboration with DCR and the IT Services Office, 
-			the University of Bern has recently set up a 
-			<a target='blank' href='https://www.unibe.ch/research/services/online_tools/work/redcap/'>central 
-			REDCap installation</a> aligned with the University’s digitalization 
-			goals and its security standards. The  
-			new REDCap Light installation was launched on November 18, 2024 and 
-			is now available free of charge to all researchers at the University 
-			of Bern and Inselspital; aiming to support both clinical and non-clinical 
-			research infrastructure.</td>
-		</tr>
-		
-		<tr>
-			<td><em>23.09.2024</em></td>
-			<td>REDCap: Successfully updated to version 14.0.42</td>
-		</tr>
-		<tr>
-			<td><em>03.06.2024</em></td>
-			<td>REDCap: Successfully updated to version 14.0.29</td>
-		</tr>
-		<tr>
-			<td><em>06.05.2024</em></td>
-			<td>REDCap: Successfully updated to version 14.0.24</td>
-		</tr>
-		<tr>
-			<td><em>19.02.2024</em></td>
-			<td>REDCap: Successfully updated to version 14.0.10 </td>
-		</tr>
-		<tr>
-			<td><em>31.01.2024</em></td>
-			<td>secuTrial: Successfully updated to version 6.5.1.7. </td>
-		</tr>
-		<tr>
-			<td><em>22.12.2023 </em></td>
-			<td>We would like to inform you that the data management team will only offer limited support during the holidays (24.12.-03.01.). Happy Holidays!</td>
-		</tr>
-		<tr> 
-			<td><em>07.11.2023 </em></td>
-			<td>REDCap: Please be aware, that the storage for file uploads in new projects will be limited to only 20 MB if not otherwise agreed in the contract. For additional storage space please get in contact with Data Management. Furthermore, the audit trail of exports will be deleted after 60 days.</td>
-		</tr>
-		<tr>
-			<td><em>10.10.2023</em></td>
-			<td>The updated Terms and Conditions detail changes on database responsibilities, new fee implementation, and specifics to REDCap Light projects.</td>
-		</tr>
-		<tr>
-			<td><em>01.07.2023</em></td>
-			<td>Remember to always update your email addresses for your user accounts (in particular everyone receiving a new email address ending with @unibe.ch).</td>
-		</tr>
-	</tbody>
-</table>-->
-
-
 </div>
-<!-- /ZMSTextarea.standard_html -->
+
